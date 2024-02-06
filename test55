@@ -1,0 +1,109 @@
+wang@localhost:~/Desktop/vlc> sudo zypper si -d vlc
+Loading repository data...
+Warning: Repository 'aliyun-update-non-oss' metadata expired since 2023-03-26 19:10:15 HKT.
+
+    Warning: Repository metadata expired: Check if 'autorefresh' is turned on
+    (zypper lr), otherwise manually refresh the repository (zypper ref). If this
+    does not solve the issue, it could be that you are using a broken mirror or
+    the server has actually discontinued to support the repository.
+
+Reading installed packages...
+Resolving package dependencies...
+40 Problems:
+Problem: the to be installed libsecret-devel-0.20.3-1.11.x86_64 requires 'libsecret-1-0 = 0.20.3', but this requirement cannot be provided
+Problem: the to be installed libbluray-devel-1.0.2-2.38.x86_64 requires 'libbluray2 = 1.0.2', but this requirement cannot be provided
+Problem: the to be installed libxml2-devel-2.9.7-3.31.1.x86_64 requires 'libxml2-2 = 2.9.7', but this requirement cannot be provided
+Problem: the to be installed libavahi-devel-0.7-3.9.1.x86_64 requires 'avahi = 0.7', but this requirement cannot be provided
+Problem: the to be installed alsa-devel-1.2.4-3.13.x86_64 requires 'libasound2 = 1.2.4', but this requirement cannot be provided
+Problem: the to be installed gtk3-devel-3.24.20-3.3.2.x86_64 requires 'libgtk-3-0 = 3.24.20', but this requirement cannot be provided
+Problem: the to be installed libnotify-devel-0.7.8-1.32.x86_64 requires 'libnotify4 = 0.7.8', but this requirement cannot be provided
+Problem: the to be installed fribidi-devel-1.0.5-1.30.x86_64 requires 'libfribidi0 = 1.0.5', but this requirement cannot be provided
+Problem: the to be installed libgcrypt-devel-1.8.2-8.36.1.x86_64 requires 'libgcrypt20 = 1.8.2', but this requirement cannot be provided
+Problem: the to be installed systemd-devel-246.13-5.1.x86_64 requires 'libsystemd0 = 246.13-5.1', but this requirement cannot be provided
+Problem: the to be installed gdk-pixbuf-devel-2.40.0-3.3.1.x86_64 requires 'libgdk_pixbuf-2_0-0 = 2.40.0', but this requirement cannot be provided
+Problem: the to be installed libarchive-devel-3.4.2-2.24.x86_64 requires 'libarchive13 = 3.4.2', but this requirement cannot be provided
+Problem: the to be installed Mesa-devel-20.2.4-57.13.x86_64 requires 'Mesa = 20.2.4', but this requirement cannot be provided
+Problem: the to be installed librsvg-devel-2.46.5-3.3.1.x86_64 requires 'librsvg-2-2 = 2.46.5', but this requirement cannot be provided
+Problem: the to be installed libqt5-qtsvg-devel-5.12.7-1.49.x86_64 requires 'libQt5Svg5 = 5.12.7', but this requirement cannot be provided
+Problem: the to be installed gstreamer-plugins-base-devel-1.16.2-2.12.x86_64 requires 'libgstallocators-1_0-0 = 1.16.2', but this requirement cannot be provided
+Problem: the to be installed ncurses-devel-6.1-5.6.2.x86_64 requires 'libncurses6 = 6.1-5.6.2', but this requirement cannot be provided
+Problem: the to be installed libsmbclient-devel-4.13.4+git.187.5ad4708741a-1.34.x86_64 requires 'libsmbclient0 = 4.13.4+git.187.5ad4708741a', but this requirement cannot be provided
+Problem: the to be installed libass-devel-0.14.0-3.3.1.x86_64 requires 'pkgconfig(fontconfig)', but this requirement cannot be provided
+Problem: the to be installed schroedinger-devel-1.0.11-1.31.x86_64 requires 'glib2-devel', but this requirement cannot be provided
+Problem: the to be installed libQt5Gui-private-headers-devel-5.12.7-4.12.2.noarch requires 'libQt5Gui-devel = 5.12.7', but this requirement cannot be provided
+Problem: the to be installed libXi-devel-1.7.9-3.2.1.x86_64 requires 'pkgconfig(xfixes)', but this requirement cannot be provided
+Problem: the to be installed libplacebo-devel-2.43.1-bp153.1.22.x86_64 requires 'pkgconfig(epoxy) >= 1.4.0', but this requirement cannot be provided
+Problem: the to be installed libmtp-devel-1.1.16-3.3.1.x86_64 requires 'pkgconfig(libusb-1.0)', but this requirement cannot be provided
+Problem: the to be installed protobuf-devel-3.9.2-4.7.3.x86_64 requires 'zlib-devel', but this requirement cannot be provided
+Problem: the to be installed opencv-devel-3.3.1-6.6.1.x86_64 requires 'libopencv3_3 = 3.3.1', but this requirement cannot be provided
+Problem: the to be installed gcc-c++-7-3.3.22.x86_64 requires 'gcc = 7', but this requirement cannot be provided
+Problem: the to be installed projectM-devel-3.1.3-bp153.1.24.x86_64 requires 'projectM = 3.1.3', but this requirement cannot be provided
+Problem: the to be installed libmpeg2-devel-0.5.1-1.38.x86_64 requires 'SDL-devel', but this requirement cannot be provided
+Problem: the to be installed libgnutls-devel-32bit-3.6.7-14.10.2.x86_64 requires 'libgnutls-devel = 3.6.7', but this requirement cannot be provided
+Problem: the to be installed libpulse-devel-32bit-14.2-4.2.x86_64 requires 'libpulse-devel = 14.2', but this requirement cannot be provided
+Problem: the to be installed libudev-devel-32bit-246.13-5.1.x86_64 requires 'libudev-devel = 246.13', but this requirement cannot be provided
+Problem: the to be installed libva-devel-32bit-2.10.0-1.13.x86_64 requires 'libva-devel = 2.10.0', but this requirement cannot be provided
+Problem: the to be installed libva-gl-devel-32bit-2.10.0-1.14.x86_64 requires 'libva-gl-devel = 2.10.0', but this requirement cannot be provided
+Problem: the to be installed libva-devel-32bit-2.10.0-1.13.x86_64 requires 'libva-devel = 2.10.0', but this requirement cannot be provided
+Problem: the to be installed libssh2-devel-1.9.0-4.13.1.x86_64 requires 'pkgconfig(libcrypto)', but this requirement cannot be provided
+Problem: the to be installed libqt5-qtx11extras-devel-5.12.7-1.49.x86_64 requires 'pkgconfig(Qt5Gui)', but this requirement cannot be provided
+Problem: the installed libQt5Network5-5.15.8+kde185-150500.4.16.1.x86_64 requires 'libQt5Core.so.5(Qt_5.15)(64bit)', but this requirement cannot be provided
+Problem: the installed libQt5PrintSupport5-5.15.8+kde185-150500.4.16.1.x86_64 requires 'libQt5Gui.so.5(Qt_5.15.8_PRIVATE_API)(64bit)', but this requirement cannot be provided
+Problem: the installed libQtQuick5-5.15.8+kde22-150500.1.2.x86_64 requires 'libQt5Widgets.so.5(Qt_5.15.8_PRIVATE_API)(64bit)', but this requirement cannot be provided
+
+Problem: the to be installed libsecret-devel-0.20.3-1.11.x86_64 requires 'libsecret-1-0 = 0.20.3', but this requirement cannot be provided
+  not installable providers: libsecret-1-0-0.20.3-1.11.x86_64[aliyun-oss]
+ Solution 1: Following actions will be done:
+  downgrade of libsecret-1-0-0.20.5-150400.4.3.1.x86_64 to libsecret-1-0-0.20.3-1.11.x86_64
+  downgrade of typelib-1_0-Secret-1-0.20.5-150400.4.3.1.x86_64 to typelib-1_0-Secret-1-0.20.3-1.11.x86_64
+  downgrade of libsecret-lang-0.20.5-150400.4.3.1.noarch to libsecret-lang-0.20.3-1.11.noarch
+  downgrade of libgio-2_0-0-2.70.5-150400.3.8.1.x86_64 to libgio-2_0-0-2.62.6-3.6.1.x86_64
+  downgrade of libglib-2_0-0-2.70.5-150400.3.8.1.x86_64 to libglib-2_0-0-2.62.6-3.6.1.x86_64
+  downgrade of libgmodule-2_0-0-2.70.5-150400.3.8.1.x86_64 to libgmodule-2_0-0-2.62.6-3.6.1.x86_64
+  downgrade of libgobject-2_0-0-2.70.5-150400.3.8.1.x86_64 to libgobject-2_0-0-2.62.6-3.6.1.x86_64
+  downgrade of libgthread-2_0-0-2.70.5-150400.3.8.1.x86_64 to libgthread-2_0-0-2.62.6-3.6.1.x86_64
+  downgrade of libselinux1-3.1-150400.1.69.x86_64 to libselinux1-3.0-1.31.x86_64
+  downgrade of NetworkManager-1.38.6-150500.3.2.1.x86_64 to NetworkManager-1.22.10-3.7.1.x86_64
+  downgrade of bubblewrap-0.7.0-150500.1.1.x86_64 to bubblewrap-0.4.1-1.16.x86_64
+  downgrade of coreutils-8.32-150400.7.5.x86_64 to coreutils-8.32-1.2.x86_64
+  downgrade of cronie-1.5.7-150400.84.3.1.x86_64 to cronie-1.5.1-6.12.2.x86_64
+  downgrade of dbus-1-1.12.2-150400.18.8.1.x86_64 to dbus-1-1.12.2-8.3.1.x86_64
+  downgrade of gnome-keyring-pam-40.0-150400.2.13.x86_64 to gnome-keyring-pam-3.34.0-3.13.x86_64
+  downgrade of iproute2-5.14-150400.1.8.x86_64 to iproute2-5.3-5.2.1.x86_64
+  downgrade of krb5-1.20.1-150500.3.3.1.x86_64 to krb5-1.16.3-3.18.1.x86_64
+  downgrade of libdevmapper1_03-2.03.22_1.02.196-150500.7.9.1.x86_64 to libdevmapper1_03-1.02.163-8.30.1.x86_64
+  downgrade of liblvm2cmd2_03-2.03.22-150500.7.9.1.x86_64 to liblvm2cmd2_03-2.03.05-8.30.1.x86_64
+  downgrade of libsemanage1-3.1-150400.1.65.x86_64 to libsemanage1-3.0-1.27.x86_64
+  downgrade of libsepol1-3.1-150400.1.70.x86_64 to libsepol1-3.0-1.31.x86_64
+  downgrade of logrotate-3.18.1-150400.3.7.1.x86_64 to logrotate-3.13.0-4.3.9.x86_64
+  downgrade of lvm2-2.03.22-150500.7.9.1.x86_64 to lvm2-2.03.05-8.30.1.x86_64
+  downgrade of rpm-4.14.3-150400.59.3.1.x86_64 to rpm-4.14.1-29.46.x86_64
+  downgrade of shadow-4.8.1-150400.10.12.1.x86_64 to shadow-4.8.1-2.43.x86_64
+  downgrade of sudo-1.9.12p1-150500.5.1.x86_64 to sudo-1.9.5p2-1.5.x86_64
+  downgrade of systemd-249.17-150400.8.40.1.x86_64 to systemd-246.13-5.1.x86_64
+  downgrade of util-linux-2.37.4-150500.9.3.1.x86_64 to util-linux-2.36.2-2.29.x86_64
+  downgrade of util-linux-systemd-2.37.4-150500.9.3.1.x86_64 to util-linux-systemd-2.36.2-2.1.x86_64
+  downgrade of vim-9.0.2103-150500.20.6.1.x86_64 to vim-8.0.1568-5.14.1.x86_64
+  deinstallation of NetworkManager-bluetooth-1.38.6-150500.3.2.1.x86_64
+  downgrade of NetworkManager-branding-openSUSE-42.1-lp155.2.7.noarch to NetworkManager-branding-openSUSE-42.1-lp153.2.30.noarch
+  downgrade of NetworkManager-lang-1.38.6-150500.3.2.1.noarch to NetworkManager-lang-1.22.10-3.7.1.noarch
+  deinstallation of NetworkManager-tui-1.38.6-150500.3.2.1.x86_64
+  deinstallation of NetworkManager-wwan-1.38.6-150500.3.2.1.x86_64
+  downgrade of cron-4.2-150400.84.3.1.x86_64 to cron-4.2-6.12.2.x86_64
+  downgrade of device-mapper-2.03.22_1.02.196-150500.7.9.1.x86_64 to device-mapper-1.02.163-8.30.1.x86_64
+  downgrade of libblkid1-2.37.4-150500.9.3.1.x86_64 to libblkid1-2.36.2-2.29.x86_64
+  downgrade of python3-rpm-4.14.3-150400.59.3.1.x86_64 to python3-rpm-4.14.1-29.2.x86_64
+  downgrade of sudo-plugin-python-1.9.12p1-150500.5.1.x86_64 to sudo-plugin-python-1.9.5p2-1.5.x86_64
+  downgrade of systemd-lang-249.17-150400.8.40.1.noarch to systemd-lang-246.13-5.1.noarch
+  downgrade of systemd-sysvinit-249.17-150400.8.40.1.x86_64 to systemd-sysvinit-246.13-5.1.x86_64
+  downgrade of udev-249.17-150400.8.40.1.x86_64 to udev-246.13-5.1.x86_64
+  downgrade of util-linux-lang-2.37.4-150500.9.3.1.noarch to util-linux-lang-2.36.2-2.29.noarch
+  downgrade of gnome-keyring-40.0-150400.2.13.x86_64 to gnome-keyring-3.34.0-3.13.x86_64
+  downgrade of vim-data-common-9.0.2103-150500.20.6.1.noarch to vim-data-common-8.0.1568-5.14.1.noarch
+  downgrade of gnome-keyring-lang-40.0-150400.2.13.noarch to gnome-keyring-lang-3.34.0-3.13.noarch
+  downgrade of libgck-modules-gnome-keyring-40.0-150400.2.13.x86_64 to libgck-modules-gnome-keyring-3.34.0-3.13.x86_64
+  downgrade of vim-data-9.0.2103-150500.20.6.1.noarch to vim-data-8.0.1568-5.14.1.noarch
+ Solution 2: do not ask to install a solvable providing pkgconfig(libsecret-1) >= 0.18
+ Solution 3: break libsecret-devel-0.20.3-1.11.x86_64 by ignoring some of its dependencies
+
+Choose from above solutions by number or skip, retry or cancel [1/2/3/s/r/c/d/?] (c): 
